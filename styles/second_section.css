@@ -1,0 +1,53 @@
+.second-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+.second-section h2{
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan a la siguiente línea */
+    justify-content: center; /* Centrar las tarjetas horizontalmente */
+}
+
+.card {
+    height: 400px;
+    width: calc(33.33% - 40px); /* Calcula el ancho para que haya espacio entre las tarjetas */
+    max-width: 300px; /* Establece un ancho máximo para las tarjetas */
+    margin: 20px; /* Espacio entre las tarjetas */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; /* Cambia la sombra al pasar el ratón */
+    padding: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.card a {
+    
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    margin-top: px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}

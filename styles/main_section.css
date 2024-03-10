@@ -1,0 +1,63 @@
+
+.main-section {
+    display: flex; /* Utilizar flexbox */
+    background-color: rgba(255, 255, 255, 0.253); /* Fondo con color y transparencia */
+    padding: 50px 0; /* Espaciado interno */
+}
+
+.main-section .column {
+    flex: 1; /* Que cada columna tome el mismo espacio */
+    padding-top: 70px; /* Espaciado interno */
+    padding-left: 70px;
+}
+
+.main-section .column img {
+    max-width: 70%; /* Ajustar imagen al ancho máximo de su contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.main-section .column img {
+    max-width: 70%; /* Ajustar imagen al ancho máximo de su contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 50%; /* Añadir bordes redondeados */
+    border: 4px solid #8997a0; /* Agregar un borde sólido */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Agregar una sombra */
+    transition: transform 0.3s ease; /* Transición suave en hover */
+}
+
+.main-section .column img:hover {
+    transform: scale(1.1); /* Escalar la imagen al pasar el cursor */
+}
+
+h2 {
+    color: #342672; /* Color del título */
+    font-size: 40px; /* Tamaño del título */
+    font-weight: bold; /* Peso de la fuente en negrita */
+    text-transform: uppercase; /* Convertir texto en mayúsculas */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+p {
+    color: #333; /* Color del texto */
+    font-size: 20px; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+p strong {
+    color: #ff5733; /* Color llamativo */
+}
+
+p em {
+    font-style: italic; /* Estilo de letra cursiva */
+}
+
+p a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Peso de la fuente en negrita */
+}
+
+p a:hover {
+    text-decoration: underline; /* Subrayar el enlace al pasar el cursor */
+}

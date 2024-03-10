@@ -1,0 +1,33 @@
+.contact-info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    width: 100%;
+}
+
+.contact-info h2 {
+    color: #342672; /* Color del título */
+    font-size: 35px; /* Tamaño del título */
+    font-weight: bold; /* Peso de la fuente en negrita */
+    text-transform: uppercase; /* Convertir texto en mayúsculas */
+    margin-bottom: 30px; /* Margen inferior */
+}
+
+.contact-info p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
