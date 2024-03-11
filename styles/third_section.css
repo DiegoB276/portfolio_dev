@@ -10,11 +10,11 @@
 }
 
 .contact-info h2 {
-    color: #342672; /* Color del título */
-    font-size: 35px; /* Tamaño del título */
-    font-weight: bold; /* Peso de la fuente en negrita */
-    text-transform: uppercase; /* Convertir texto en mayúsculas */
-    margin-bottom: 30px; /* Margen inferior */
+    color: #342672;
+    font-size: clamp(25px, 4vw, 45px);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .contact-info p {
